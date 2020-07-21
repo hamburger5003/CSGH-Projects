@@ -1,0 +1,360 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*End Reset*/
+
+
+
+
+/* Navigation Bar*/
+
+div.nav {
+  background-color: rgba(5, 10, 77,1);
+  vertical-align: middle;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 7.5px 0 7.5px 0;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  font-family: 'Oswald', sans-serif; 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  margin: 5px 6px;
+  text-decoration: none;
+}
+
+#logo1{
+color: white;
+}
+
+#logo2{
+  color: #b7d8ff;
+  font-weight: bold;
+}
+
+ul.topnav li a:hover { 
+  color: #a5a5b3;
+  transition: color 0.4s ease
+}
+
+ul.topnav li a.active {
+  border: 1px solid white;
+}
+
+ul.topnav li.right {float: left;}
+
+/* Header */
+
+  header div{
+    background-image: url("images/lake_goldenhour.jpg");
+    width: 100%;
+    padding: 290px 0 280px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  header div h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 600%;
+    color: white;
+    line-height: 100px; 
+    padding: 2.5% 0 2.5% 0;
+    }
+  
+  header div p {
+    font-family: 'Coustard', serif;
+    font-size: 140%;
+    color: white;
+  }
+
+  /*About Section (Article)*/
+  article.about {
+    background-color: white;
+    padding-bottom: 75px;
+  }
+
+  .about {
+    font-family: 'Oswald', sans-serif;
+    font-size: 250%;
+    color: #050a4d;
+  }
+
+  .about h2 {
+    text-indent: 10%;
+    margin: 70px 0 35px 0;
+  }
+
+  article.about div {
+    background-color: #050a4d;
+    color: white;
+    width: 80%;
+    margin: auto ;
+    padding: 60px 30px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  article.about div img {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 35px;
+  }
+
+  article.about div h6 {
+    font-family: 'Coustard', serif;
+    font-weight: normal;
+    line-height: 45px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  article.about div ul {
+    font-family: 'Coustard', serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 50%;
+    list-style-type: circle;
+    list-style-position: outside;
+    line-height: 45px;
+  }
+
+  article.about div ul li {
+    margin-bottom: 20px;
+  }
+
+  /*SOP Section (Article)*/
+
+ article.SOP{
+   background-color: white;
+ }
+
+ article.SOP h2{
+  font-family: 'Oswald', sans-serif;
+  color: #050a4d;
+  font-size: 600%;
+  text-align: center;
+  margin: 40px 0 40px 0;
+ }
+
+ div.SOP{
+  background-image: url("images/lake_sunset.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 100px 0;
+ }
+
+ div.SOP div.flex{
+  background-color: #0c234042; /*42*/
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+ }
+
+ div.SOP div.flex > div {
+  background-color: rgba(255,255,255,0);
+  width: 48%;
+  margin: 50px 10px 50px 10px;
+  text-align: center;
+  
+ }
+
+ div.SOP div.flex > div h6{
+  color: white;
+  font-family: 'Coustard', serif;
+  font-weight: normal;
+  font-size: 150%;
+  margin-bottom: 25px;
+ }
+
+ div.SOP div.flex > div h3{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 600%;
+ }
+
+
+ div.SOP div.flex > a{
+    color: #050a4d;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 90%;
+    padding: 15px 30px 15px 30px;
+    text-transform: upper;
+    border: 1px solid white;
+    margin: auto;
+ }
+
+ div.SOP div.flex > a:hover{
+  color: white;
+  background-color: #ffffff00;
+ }
+
+/*Image Setion (article)*/
+
+  /*Footer*/
+  footer {
+    background-color: #050a4d;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    width: 100%;
+  }
+
+  footer h2 {
+    color: #b7d8ff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 600%;
+    padding: 2.5% 0 1.5% 0;
+  }
+
+  footer p {
+    font-family: 'Coustard', serif;
+    font-size: 150%;
+    color: white;
+    padding: 0 0 3% 0;
+  }
+
+  footer a { 
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 150%;
+    text-transform: upper;
+    padding: 0 5px 5px 5px;
+    border: 1px solid white;
+  }
+
+  footer a:hover{
+    background-color: rgb(77, 80, 124);
+  }
+
+/* Mobile Version/Responsive Styling
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  
+  
+  }
